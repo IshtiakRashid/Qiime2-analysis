@@ -11,13 +11,13 @@ for f in $(ls *_1.fastq); do sample_id=$(basename $f _1.fastq) echo -e "$sample_
 
 # Demux
 # For forward sequence-reads only
-```
+
 qiime tools import \
 --type 'SampleData[SequencesWithQuality]' \
 --input-path single-end-manifest.csv \
 --output-path single-end-demux.qza \
 --input-format SingleEndFastqManifestPhred33V2
-```
+
 
 # Demux summary
 qiime demux summarize\
