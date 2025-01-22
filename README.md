@@ -6,3 +6,5 @@ This repository contains  scripts, metadata, and results for the analysis of 16S
 2. Ensure Qiime2 is installed (version: qiime2-amplicon-2024.5)
 3. Run the scripts in the scripts/ folder
 
+## Feedback and Contact
+We welcome all feedback. For code issues, please open an issue. For other inquiries contact us by email.
